@@ -1,0 +1,12 @@
+User-agent: *
+Disallow:
+
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+Sitemap: https://jordanstephen.github.io/jorden/sitemap.xml
