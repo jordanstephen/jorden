@@ -1,12 +1,27 @@
+media:
+  input: public/images
+  output: /images
+
 content:
-  - label: My Blog Posts
+  - name: posts
+    label: Blog Posts
+    path: _posts
     type: collection
-    path: posts
-    format: md
+    filename: "{year}-{month}-{day}-{slug}.md"
+
     fields:
-      - label: Title
-        name: title
+      - name: title
+        label: Title
         type: string
-      - label: Content
-        name: body
-        type: rich-text
+
+      - name: date
+        label: Date
+        type: date
+
+      - name: description
+        label: Description
+        type: string
+
+      - name: body
+        label: Content
+        type: richtext
