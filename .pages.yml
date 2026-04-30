@@ -1,0 +1,12 @@
+content:
+  - label: Blog Posts
+    type: collection
+    path: /_posts
+    format: json
+    fields:
+      - label: Title
+        name: title
+        type: string
+      - label: Body
+        name: body
+        type: rich-text
