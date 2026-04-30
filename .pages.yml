@@ -1,0 +1,12 @@
+content:
+  - label: My Blog Posts
+    type: collection
+    path: posts
+    format: md
+    fields:
+      - label: Title
+        name: title
+        type: string
+      - label: Content
+        name: body
+        type: rich-text
