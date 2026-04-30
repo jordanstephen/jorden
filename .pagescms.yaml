@@ -1,0 +1,13 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: posts
+    label: Blog Posts
+    path: _posts
+    type: collection
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: date, label: Date, type: date }
+      - { name: body, label: Content, type: richtext }
